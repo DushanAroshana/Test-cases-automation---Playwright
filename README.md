@@ -29,9 +29,11 @@ Follow these steps to set up the project:
    cd IT23141124
 
 4. **Install Dependencies Run the following command to install the required Node.js packages:**
+   ```bash
    npm install
 
-5. **Install Playwright Browsers This downloads the necessary browser binaries (Chromium, Firefox, WebKit):**
+6. **Install Playwright Browsers This downloads the necessary browser binaries (Chromium, Firefox, WebKit):**
+   ```bash
    npx playwright install
 
 
