@@ -40,17 +40,18 @@ Follow these steps to set up the project:
 ## How to Run the Tests
 
 # Run with Browser Visible
-This runs the tests in "Headed" mode using Google Chrome (Chromium) so, you can watch the automation happening.
+**This runs the tests in "Headed" mode using Google Chrome (Chromium) so, you can watch the automation happening.**
 ```bash
 npx playwright test --project=chromium --headed
 ```
 
 
 ## Viewing the Test Report
-After the tests have finished running, a report is generated automatically. To view the HTML report in your browser, 
+**After the tests have finished running, a report is generated automatically. To view the HTML report in your browser,** 
 run:
+```bash
 npx playwright show-report
-
+```
 
 ## Project Structure
 1. tests/assignment.spec.js: Contains all 37 test cases (Positive, Negative, and UI scenarios).
