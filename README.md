@@ -24,13 +24,14 @@ Follow these steps to set up the project:
    ```bash
    git clone [https://github.com/DushanAroshana/Test-cases-automation---Playwright]
 
-2. **Navigate to the Project Folder Open your terminal and move into the project directory:**
+2. **Navigate to the Project Folder Open your terminal and move into the project directory:**.
+   ```bash
    cd IT23141124
 
-3. **Install Dependencies Run the following command to install the required Node.js packages:**
+4. **Install Dependencies Run the following command to install the required Node.js packages:**
    npm install
 
-4. **Install Playwright Browsers This downloads the necessary browser binaries (Chromium, Firefox, WebKit):**
+5. **Install Playwright Browsers This downloads the necessary browser binaries (Chromium, Firefox, WebKit):**
    npx playwright install
 
 
