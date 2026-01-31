@@ -41,6 +41,7 @@ Follow these steps to set up the project:
 
 # Run with Browser Visible
 This runs the tests in "Headed" mode using Google Chrome (Chromium) so, you can watch the automation happening.
+```bash
 npx playwright test --project=chromium --headed
 
 
